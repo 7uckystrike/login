@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-size: 30px;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* css */
+
+ul {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 100px 0;
+}
+
+.login {
+  border: 3px solid;
+  padding: 10px;
+  margin-right: 40px;
+}
+
+.logout {
+  border: 3px solid;
+  padding: 10px;
+}
